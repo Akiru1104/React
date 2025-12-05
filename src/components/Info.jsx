@@ -2,10 +2,10 @@ import React from "react";
 
 export const Info = () => {
   return (
-    <div className="flex">
+    <div className="flex h-[556px]">
       <div className="py-24 px-20  flex gap-12 flex-col">
         <div className="text-6xl font-bold leading-16">Hi,I'm Zulaa 👋</div>
-        <div className="text-base font-normal">
+        <div className="text-base font-normal w-[584px]">
           I specialize in full stack development, particularly with React.js and
           Node.js. My main goal is to create exceptional digital experiences
           that are fast, visually appealing, and accessible to everyone. With
@@ -37,8 +37,12 @@ export const Info = () => {
         <img src="" alt="" />
       </div>
       <div className="relative...">
-        <img className="border-8 border-[#030712]" src="Ariunzul.png" alt="" />
-        <img className="absolute " src="Background.png" alt="" />
+        <img
+          className=" absolute border-8 border-[#030712] w-[280px] top-98 left-1008 "
+          src="Ariunzul.png"
+          alt=""
+        />
+        <div className="absolute bg-[#374151] h-[320] w-[280px] border-8 border-[#030712] top-138 left-1048"></div>
       </div>
     </div>
   );

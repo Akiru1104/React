@@ -1,12 +1,22 @@
 import { Header } from "@/components/Header";
 import { Info } from "@/components/Info";
-import React from "react";
+import { About } from "@/components/About";
+
+import { Skills } from "@/components/Skills";
+import { Experience } from "@/components/Experience";
+import { Work } from "@/components/Work";
+import { GetTouch } from "@/components/GetTouch";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <Info />
+      <Info />　
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
+      <GetTouch />
     </div>
   );
 };

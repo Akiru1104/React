@@ -36,8 +36,8 @@ export const Info = () => {
           <img src="3rdicon.png" alt="" />
         </div>
       </div>
-      <div className=" h-[320] flex justify-end items-end max-sm:w-full max-sm:h-[300] max-sm:flex max-sm:items-center max-sm:justify-center max-sm:mt-[64]">
-        <img className="h-[320] w-[280]" src="Profile.png" alt="" />
+      <div className=" h-[320] w-[280] flex justify-end  items-end max-sm:w-full max-sm:h-[300] max-sm:flex max-sm:items-center max-sm:justify-center max-sm:mt-[64]">
+        <img className="h-[320] w-[280] border-8 border-[#374151]" src="Profile.png" alt="" />
       </div>
     </div>
   );

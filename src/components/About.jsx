@@ -9,9 +9,9 @@ export const About = () => {
             About me
           </div>
         </div>
-        <div className="w-[400px] h-[480px]  object-fit flex flex-row gap-[150px] max-sm:w-full max-sm:h-[1254px] max-sm:flex max-sm:flex-col max-sm:gap-[48px] ">
+        <div className="w-[400px] h-[480px]  object-fit flex  flex-row gap-[150px] max-sm:w-full max-sm:h-[1254px] max-sm:flex max-sm:flex-col max-sm:gap-[48px] ">
           <img
-            className="h-[480] w-[400] object-cover"
+            className="h-[480] w-[400] object-cover border-8 border-[#374151]"
             src="Aboutpic.jpg"
             alt=""
           />
